@@ -1,2 +1,5 @@
 .venv
 crypto_paywall/crypto_paywall/__pycache__/
+crypto_paywall/products/migrations/__pycache__/
+crypto_paywall/products/__pycache__/
+
