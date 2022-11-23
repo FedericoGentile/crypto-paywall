@@ -1,4 +1,13 @@
 {% extends "products/base.html" %}
 {% block content %}
     <h1>Products</h1>
+    {% for product in products %}
+        <div class="card w-75">
+            <div class="card-body">
+            <h5 class="card-title">{{product.name}}</h5>
+            <p class="card-text">Price: {{product.price}}</p>
+            <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </div>
+    {% endfor%}
 {% endblock content %}
